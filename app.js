@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 3000;
 app.get('/', (req, res) => {
   res.json({
     status: 'running',
-    message: 'Hello from Jenkins CI/CD Pipeline!',
+    message: 'Hello from Jenkins CI/CD Pipeline [diogus]!',
     version: process.env.APP_VERSION || '1.0.0',
     timestamp: new Date().toISOString()
   });
