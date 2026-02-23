@@ -6,7 +6,7 @@ pipeline {
     }
 
     environment {
-        APP_SERVER = 'ubuntu@<APP_PRIVATE_IP>'   // ⚠️ Replace with your app server's private IP
+        APP_SERVER = 'ubuntu@172.31.41.248'
     }
 
     stages {
